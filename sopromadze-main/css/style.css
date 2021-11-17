@@ -1,0 +1,522 @@
+/* .index_body {
+    height: 1800px;
+} */
+/* .header { position fix იწვევს justifi-content:flex-end-ის გაუქმებას
+    position: fixed;
+} */ 
+
+.container {
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.Index_header_navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Index_header_ul {
+    display: flex;
+}
+.Index_header_li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Index_header_div_wrapper_image {
+    display: flex;
+}
+
+.Index_header_div_wrapper {
+    display: flex;
+}
+.Index_header_div {
+    margin-left: 15px;
+}
+.logo_image {
+    margin-left: 20px;
+    background-color: bisque;
+}
+.header_decoration {
+    text-decoration: underline;
+    text-decoration-color: black;
+    color: red;
+}
+.language {
+    display: flex;
+    justify-content: flex-end;
+}
+.language_style {
+    margin-right: 15px;
+}
+.language_decoradion {
+    text-decoration: underline;
+    text-decoration-color: green;
+    color: blueviolet;
+}
+.burger_icon {
+    display: none;
+}
+
+.section1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.section2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.vineyeard_image {
+    width: 100%;
+}
+
+/* Product.html start */
+
+.Product_catalogue_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.Product_catalogue_style {
+    font-size: 22px;
+    font-style:italic;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: black;
+}
+
+.Product_section {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Products_Product_section {
+    width: 95%;
+    
+}
+.Wine_types_wrapper {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.Wine_box_wrapper {
+    display: flex;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 5px;
+}
+.Wine_box {
+    padding: 0 20px;
+}
+
+.Wine_box:hover {
+    background-color: black;
+    color:white;
+    /* font-style: italic; */
+    transition: 1.0s;
+}
+
+/* Product.html end */
+/* WhiteWine.html start*/
+
+.White_Wine_Wrapper1 {
+    display: flex;
+}
+
+.White_Wine_Product_image {
+    height: 400px;
+}
+
+.Red_Wine_Product_image {
+    height: 400px;
+}
+
+.White_Wines {
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgba(21, 62, 175, 0.438)
+}
+
+.Red_Wines {
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgba(21, 62, 175, 0.438) 
+}
+
+.Red_Wines:hover {
+    /* font-style:normal; */
+    color: rgba(141, 23, 14, 0.9) ;
+    text-decoration-color: rgba(141, 23, 14, 0.9);
+    overflow: hidden;
+    transition: 1.0s;
+}
+
+/* WhiteWine.html end*/
+/* Prima.html start*/
+/* .Prima_Prodact_main_wrapper {
+    display: flex;
+} */
+
+.Prima_name {
+    width: 100%;
+}
+
+.Prima_name_title {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.Prima_Product_image {
+    height: 500px;
+}
+
+.Prima_History_and_ManufacturingTechnology {
+    text-align: center;
+    font-size: 22px;
+    padding-bottom:15px;
+}
+
+.Product_wrapper:hover {
+    /* box-shadow: #f1f1f1; */
+}
+
+.Prima_Product_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Prima_description {
+    position: relative;
+    width: 40%;
+    overflow: hidden;
+    height: auto;
+}
+
+/* Prima.html end*/
+
+/* Contact.html start */
+
+.contact_information_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_information {
+    width: 45%;
+}
+
+.Contact_SignUp_header {
+    font-family: cursive;
+    font-size: 18px;
+    font-weight:lighter;
+    color: green;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.border_between_contact_section {
+    height: 369px;
+    width: 2px;
+    background-color: black;
+}
+
+.Italic {
+    font-style: italic;
+}
+
+.contact_us {
+    font-family:fantasy;
+    font-size: 25px;
+    color:green;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.contact_span_style {
+    color:blue;
+}
+
+.li_display_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Contact_SignUp {
+    width: 45%;
+}
+
+.Contact_FirsName_LastName {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.PhoneNumber_or_Email {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.First_Name_input {
+    width: 100%;
+}
+
+.Last_Name_input {
+    width: 100%;
+}
+
+.Number_or_Email_input {
+    width: 100%;
+}
+
+.Message_box {
+    resize: none;
+}
+
+.send_button {
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: black;
+    background-color: #fff;
+    font-size: 15px;
+}
+
+/* Contact.html end */
+/* About.html start */
+
+.Company_History_title {
+    text-decoration: underline;
+    text-decoration-style:inherit;
+    font-size: 40px;
+    font-style: oblique;
+    text-align: center;
+}
+
+.h2 {
+    font-size: 30px;
+}
+
+.p_catalogue {
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.Prodact_main_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.container .Product_main_Catalogue .Prodact_main_wrapper {
+    justify-content: space-around;
+}
+
+.Product_wrapper {
+    text-align: center;
+}
+
+.Product_image {
+    height: 250px;
+}
+.Product_span {
+    /* margin: 0 auto; */
+    color: blue;
+}
+
+/* Footer */
+
+footer {
+    background-color: #f1f1f1;
+}
+
+.footer_main_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.footer_notifications {
+    font-size: 22px;
+    text-decoration: underline;
+    padding-bottom: 10px
+}
+
+.footer_notifications1 {
+    font-size: 16px;
+    }
+
+.footer_SignUP {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+.Email_input {
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+
+.Footer_navigation {
+    display: flex;
+}
+
+.footer_navigation_box {
+    margin-right: 15px;
+}
+
+.footer_navigation_styles:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+
+    color:red;
+    font: bold;
+    /* font-size: large; */
+    transition: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.margin-bottom:nth-child(1) {
+    margin-bottom: 15px;
+}
+
+.direction_icon {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.youtube_icon {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.facebook_icon {
+    height: 20px;
+    margin-right: 10px;
+}
+.instagram_icon {
+    height: 20px;
+    margin-right: 10px;
+}
+.Footer_icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.twitter_icon {
+    height: 20px;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+    .Index_header_div_wrapper {
+        display: none;
+    }
+    .Index_header_navigation {
+        justify-content: center;
+    }
+    .language {
+        display: none;
+    }
+    .burger_icon {
+        display: flex;
+        height: 60px;
+        /* justify-content: flex-end; */
+    }
+    .Index_header_ul {
+        width: 100%;
+        display: flex;
+    }
+
+    .Index_header_li {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .Prodact_main_wrapper {
+        flex-wrap: wrap;
+    }
+    .h2 {
+        font-size: 25px;
+    }
+    .Product_image {
+        height: 200px;
+    }
+    .footer_notifications {
+        font-size: 20px;
+        text-decoration: underline;
+        padding-bottom: 10px;
+    }
+    .footer_notifications1 {
+        font-size: 15px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+    .Index_header_div_wrapper {
+        display: none;
+    }
+    .Index_header_navigation {
+        justify-content: center;
+    }
+    .language {
+        display: none;
+    }
+    .burger_icon {
+        display: flex;
+        height: 40px;
+        justify-content: flex-start;
+    }
+}
